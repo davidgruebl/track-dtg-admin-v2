@@ -1,18 +1,17 @@
 {
-  "author": "Your Name Here",
   "name": "track-dtg-admin-v2",
-  "repository": "",
-  "description": "",
   "version": "1.0.0",
-  "main": "./app/app.js",
-  "reapp": "0.8",
-  "scripts": {
-    "test": "",
-    "start": "reapp run",
-    "build": "reapp build ios && (cd ~/Projects/track-dtg-admin-v2-ios && cordova prepare)"
-  },
+  "author": "David Thomas Grübl",
   "dependencies": {
     "react": "0.13.1",
     "reapp-kit": "^1.2.0"
+  },
+  "main": "./app/app.js",
+  "reapp": "0.8",
+  "repository": "",
+  "scripts": {
+    "build": "reapp build ios && (cd ~/Projects/track-dtg-admin-v2-ios && cordova prepare)",
+    "start": "reapp run",
+    "test": ""
   }
 }
